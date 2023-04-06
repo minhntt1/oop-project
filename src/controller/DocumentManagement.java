@@ -64,7 +64,7 @@ public class DocumentManagement implements IFaceDocumentManagement {
 	}
 
 	/**
-	 * có chức năng cập nhật danh sách và lưu vào file
+	 * có chức năng lưu dữ liệu thư viện vào file
 	 * @return trả về trạng thái ghi ra file dữ liệu
 	 */
 	public int updateList() {
