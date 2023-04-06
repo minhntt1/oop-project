@@ -26,7 +26,8 @@ import model.Publisher;
 import model.Reader;
 
 /**
- *
+ * Lớp ReaderForm chứa các thuộc tính và phương thức liên quan đến
+ * giao diện cho độc giả 
  * @author admin1
  */
 public class ReaderForm extends javax.swing.JFrame {

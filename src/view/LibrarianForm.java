@@ -29,6 +29,8 @@ import model.Publisher;
 import model.Reader;
 
 /**
+ * Lớp LibrarianForm chứa các thuộc tính và phương thức liên quan đến
+ * giao diện cho thủ thư 
  *
  * @author admin1
  */
