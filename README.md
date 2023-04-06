@@ -19,4 +19,4 @@ Quản lý thư viện
 - Thay đổi thông tin cá nhân tài khoản thủ thư
 
 # Biểu đồ lớp UML
-![](.QlyTV.drawio.png)
+![](UML-LM.png)
