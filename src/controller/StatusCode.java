@@ -10,12 +10,17 @@ package controller;
  */
 public class StatusCode {
 
-	//-1 ko co loi
+	/**
+	 * lưu mã lỗi cho module quản lý file
+	 */
 	public static final String[] fileCode = {
 		"Không tìm thấy File",
 		"IOException",
 		"Classnotfound"
 	};
+	/**
+	 * lưu mã lỗi cho module kiểm tra form dữ liệu
+	 */
 	public static final String[] formCode = new String[]{
 		"Không được để trống",
 		"Tên đăng nhập chứa các chữ cái hoặc các số, không có ký tự đặc biệt",
@@ -31,7 +36,9 @@ public class StatusCode {
 		"Phải nhập đúng định dạng dd/mm/yyyy",
 		"Phải nhập số >= 0"
 	};
-
+	/**
+	 * lưu mã lỗi cho module quản lý người dùng
+	 */
 	public static final String[] umCode = new String[]{
 		fileCode[0],
 		fileCode[1],
@@ -44,6 +51,9 @@ public class StatusCode {
 		"Không thể xóa độc giả do vẫn đang mượn tài liệu chưa trả"
 	};
 
+	/**
+	 * lưu mã lỗi trả về cho module quản lý nhà xuất bản và tác giả
+	 */
 	public static final String[] pamCode = new String[]{
 		fileCode[0],
 		fileCode[1],
@@ -52,6 +62,9 @@ public class StatusCode {
 		"Không thể xóa NXB/Tác giả do vẫn còn tài liệu"
 	};
 
+	/**
+	 * lưu mã lỗi trả về cho module quản lý tài liệu
+	 */
 	public static final String[] dmCode = new String[]{
 		fileCode[0],
 		fileCode[1],
