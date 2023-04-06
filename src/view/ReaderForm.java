@@ -1185,9 +1185,9 @@ public class ReaderForm extends javax.swing.JFrame {
 		}
     }//GEN-LAST:event_jButton37ActionPerformed
 
-	/**
-	 * @param args the command line arguments
-	 */
+//	/**
+//	 * @param args the command line arguments
+//	 */
 //	public static void main(String args[]) {
 //		/* Set the Nimbus look and feel */
 //		//<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
