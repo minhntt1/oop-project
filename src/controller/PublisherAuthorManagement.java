@@ -10,7 +10,7 @@ import model.Author;
 import model.Publisher;
 
 /**
- *
+ * Lớp PublisherAuthorManagement có các chức năng liên quan đến quản lý nhà xuất bản, tác giả
  * @author admin1
  */
 public class PublisherAuthorManagement {

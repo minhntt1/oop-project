@@ -18,7 +18,7 @@ import model.Person;
 import model.Publisher;
 
 /**
- *
+ * Lớp FileManagement dùng cho quản lý vào ra file, chứa dữ liệu thư viện
  * @author admin1
  */
 public class FileManagement {

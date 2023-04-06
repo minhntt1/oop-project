@@ -11,7 +11,7 @@ import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
 /**
- *
+ * Lớp FormValidation có chức năng dùng cho xác thực văn bản nhập vào
  * @author admin1
  */
 public class FormValidation {

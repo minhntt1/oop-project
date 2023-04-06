@@ -5,7 +5,7 @@
 package controller;
 
 /**
- *
+ * Lớp Status code chứa các mã lỗi trả về của các module controller
  * @author admin1
  */
 public class StatusCode {

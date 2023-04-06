@@ -10,7 +10,7 @@ import model.Document;
 import model.IssuedFor;
 
 /**
- * Interface IFaceDocumentManagement chứa các phương thức cần thiết cho DocumentManagment
+ * Interface IFaceDocumentManagement chứa các phương thức cần thiết cho DocumentManagment để quản lý tài liệu
  *
  * @author admin1
  */
