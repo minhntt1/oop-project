@@ -1,19 +1,19 @@
-# oop-project
-Qu?n l� th? vi?n
+﻿# oop-project
+Quản lý thư viện
 
-# Th�ng tin ??ng nh?p th? th?
-- T�i kho?n: user1
-- M?t kh?u: 88888888
+# Thông tin đăng nhập thủ thư
+- Tài khoản: user1
+- Mật khẩu: 88888888
 
-# H??ng d?n ch?y
-- Y�u c?u c�i JDK >= 1.8
-- L?u file jar v� file d? li?u library.dat v�o c�ng th? m?c
-- M? file jar l�n ?? ch?y (l?n ??u m? c� th? hi?n ra th�ng b�o kh�ng th?y file d? li?u)
+# Hướng dẫn chạy
+- Yêu cầu cài JDK >= 1.8
+- Lưu file jar và file dữ liệu library.dat vào cùng thư mục
+- Mở file jar lên để chạy (lần đầu mở có thể hiện ra thông báo không thấy file dữ liệu)
 
-# C�c ch?c n?ng
-- ??ng nh?p, ??ng k� t�i kho?n th? th?, ??c gi?
-- Th�m, s?a, x�a, t�m ki?m t�i li?u s�ch/b�o
-- Th�m, x�a, t�m ki?m c�c nh� xu?t b?n, t�c gi?
-- Th�m, s?a, x�a, t�m ki?m t�i kho?n ??c gi?
-- Th?ng k� t�i li?u theo c�n l?i, ?� m??n
-- Thay ??i th�ng tin c� nh�n t�i kho?n th? th?
+# Các chức năng
+- Đăng nhập, đăng ký tài khoản thủ thư, độc giả
+- Thêm, sửa, xóa, tìm kiếm tài liệu sách/báo
+- Thêm, xóa, tìm kiếm các nhà xuất bản, tác giả
+- Thêm, sửa, xóa, tìm kiếm tài khoản độc giả
+- Thống kê tài liệu theo còn lại, đã mượn
+- Thay đổi thông tin cá nhân tài khoản thủ thư
