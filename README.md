@@ -15,8 +15,11 @@ Quản lý thư viện
 - Thêm, sửa, xóa, tìm kiếm tài liệu sách/báo
 - Thêm, xóa, tìm kiếm các nhà xuất bản, tác giả
 - Thêm, sửa, xóa, tìm kiếm tài khoản độc giả
-- Thống kê tài liệu theo còn lại, đã mượn
+- Thống kê tài liệu theo số lượt mượn, độc giả
 - Thay đổi thông tin cá nhân tài khoản thủ thư
+
+# Javadoc
+Lưu trong thư mục dist/javadoc
 
 # Biểu đồ lớp UML
 ![](UML-LM.png)
