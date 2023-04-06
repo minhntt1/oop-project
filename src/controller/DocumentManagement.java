@@ -19,23 +19,42 @@ import model.Publisher;
 import model.Reader;
 
 /**
+ * Class DocumentManagement thực thi Interface IfaceDocument Management
  *
  * @author admin1
  */
 public class DocumentManagement implements IFaceDocumentManagement {
 
+	/**
+	 * đối tượng tài liệu
+	 */
 	private static DocumentManagement object;
+	/**
+	 * mảng lưu danh sách thời hạn mượn theo ngày
+	 */
 	private final int[] listPeriods = {
 		1, 2, 7, 14, 30, 60, 360
 	};
+	/**
+	 * danh sách tài liệu cần quản lý
+	 */
 	private final ArrayList<Document> docs;
+	/**
+	 * danh sách lượt mượn cần quản lý
+	 */
 	private final ArrayList<IssuedFor> ib;
 
+	/**
+	 * có chức năng khởi tạo và lưu vào danh sách để quản lý
+	 */
 	private DocumentManagement() {
 		this.docs = FileManagement.getObject().docsDat();
 		this.ib = FileManagement.getObject().issuedDat();
 	}
 
+	/**
+	 * @return trả về đối tượng của lớp hiện tại
+	 */
 	public static DocumentManagement getObject() {
 		if (object == null) {
 			object = new DocumentManagement();
@@ -44,6 +63,10 @@ public class DocumentManagement implements IFaceDocumentManagement {
 		return object;
 	}
 
+	/**
+	 * có chức năng cập nhật danh sách và lưu vào file
+	 * @return trả về trạng thái ghi ra file dữ liệu
+	 */
 	public int updateList() {
 		return FileManagement.getObject().writeData();
 	}
