@@ -10,7 +10,9 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- *
+ * Lớp Issued For chứa các thuộc tính liên quan đến lượt mượn như mã mượn, độc giả mượn, tài liệu mượn, ngày mượn, thời hạn mượn, trạng thái trả của lượt mượn
+ * và các phương thức như get id, reader, document, date, period, get set trạng thái đã trả
+ * 
  * @author admin1
  */
 public class IssuedFor implements Serializable {

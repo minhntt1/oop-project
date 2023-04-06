@@ -7,6 +7,8 @@ package model;
 import java.io.Serializable;
 
 /**
+ * Lớp Document chứa các thuộc tính liên quan đến tài liệu như mã, số bản phát hành, nhà xuất bản, số lượng
+ * và các phương thức như get id, get set số bản phát hành, nhà xuất bản và số bản sao
  *
  * @author admin1
  */

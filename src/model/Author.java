@@ -8,7 +8,8 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
- *
+ * Lớp Author chứa các thuộc tính của tác giả như mã tác giả, tên, danh sách tài liệu
+ * và các phương thức như lấy mã tài liệu, get set tên, thêm, xóa sách, toString
  * @author admin1
  */
 public class Author implements Serializable {

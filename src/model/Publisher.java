@@ -8,7 +8,8 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
- *
+ * Lớp Publisher bao gồm các thuộc tính liên quan đến nhà xuất bản như mã, tên, và danh sách tài liệu của nhà xuất bản
+ * các phương thức như get id, get set name và thêm, xóa tài liệu, toString
  * @author admin1
  */
 public class Publisher implements Serializable {

@@ -7,7 +7,9 @@ package model;
 import java.io.Serializable;
 
 /**
- *
+ * Lớp Person bao gồm thuộc tính của người dùng hệ thống như mã người dùng, tên, tên đăng nhập, mật khẩu
+ * các phương thức get set tên, tên đăng nhập, mật khẩu
+ * 
  * @author admin1
  */
 public class Person implements Serializable{

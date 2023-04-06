@@ -9,7 +9,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- *
+ * Lớp Reader kế thừa Person bao gồm các thuộc tính của độc giả như ngày đăng ký, trạng thái hoạt động,
+ * và các phương thức như get set ngày đăng ký, trạng thái hoạt động
  * @author admin1
  */
 public class Reader extends Person implements Serializable {

@@ -7,7 +7,9 @@ package model;
 import java.io.Serializable;
 
 /**
- *
+ * Lớp Librarian kế thừa Person bao gồm các thuộc tính của thủ thư như số điện thoại
+ * và các phương thức get set số điện thoại
+ * 
  * @author admin1
  */
 public class Librarian extends Person implements Serializable {

@@ -9,7 +9,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- *
+ * Lớp Paper kế thừa Document gồm các thuộc tính của báo như ngày phát hành
+ * và phương thức get set ngày phát hành
+ * 
  * @author admin1
  */
 public class Paper extends Document implements Serializable {

@@ -8,7 +8,8 @@ import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
- *
+ * Lớp Book kế thừa Document chứa các thuộc tính của sách như tên, số trang, danh sách tác giả
+ * và các phương thức như get set tên, tác giả, số trang, toString
  * @author admin1
  */
 public class Book extends Document implements Serializable {
