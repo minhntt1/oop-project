@@ -227,6 +227,15 @@ public class UserManagement {
 		return this.updateUserList();
 	}
 
+	/**
+	 * có chức năng tìm tài khoản độc giả
+	 * @param id mã độc giả
+	 * @param name tên độc giả
+	 * @param user tên đăng nhập độc giả
+	 * @param date ngày đăng ký tài khoản độc giả
+	 * @param status trạng thái tài khoản độc giả
+	 * @return danh sách độc giả thỏa mãn điều kiện
+	 */
 	public ArrayList<Person> findReader(int id, String name, String user, Date date, int status) {
 		return this.users
 				.stream()
