@@ -1,10 +1,3 @@
-NOTE:
-Save jar and data file library.dat in same directory
-
-Librarian login:
-user1/88888888
-
-
 ========================
 BUILD OUTPUT DESCRIPTION
 ========================
