@@ -23,10 +23,25 @@ import model.Publisher;
  */
 public class FileManagement {
 
+	/**
+	 * đối tượng filemanagement
+	 */
 	private static FileManagement object;
+	/**
+	 * đường dẫn thư mục chứa file dữ liệu
+	 */
 	private final String filePath = "./library.dat";
+	/**
+	 * danh sách chứa dữ liệu thư viện, nó bao gồm các danh sách chứa 
+	 * tác giả, nhà xuất bản, người dùng,
+	 * tài liệu, lượt mượn
+	 */
 	private ArrayList<Object> libraryData;
 
+	/**
+	 * hàm khởi tạo cho thư viện, có chức năng 
+	 * khởi tạo dữ liệu thư viện mới từ đầu
+	 */
 	private FileManagement() {
 		this.libraryData = new ArrayList<>();
 		this.libraryData.add(new ArrayList<Author>());
@@ -36,6 +51,9 @@ public class FileManagement {
 		this.libraryData.add(new ArrayList<IssuedFor>());
 	}
 
+	/**
+	 * @return trả về đối tượng của lớp hiện tại
+	 */
 	public static FileManagement getObject() {
 		if (object == null) {
 			object = new FileManagement();
@@ -44,6 +62,12 @@ public class FileManagement {
 		return object;
 	}
 
+	/**
+	 * khởi tạo dữ liệu thư viện,
+	 * đọc dữ liệu thư viện từ file dữ liệu và lưu 
+	 * vào libraryData để dùng cho xử lý 
+	 * @return  
+	 */
 	public int initData() {
 		try {
 			FileInputStream fis = new FileInputStream(this.filePath);
@@ -61,6 +85,10 @@ public class FileManagement {
 		}
 	}
 
+	/**
+	 * có chức năng lưu dữ liệu trong arraylist
+	 * vào file dữ liệu 
+	 */
 	int writeData() {
 		try {
 			FileOutputStream fos = new FileOutputStream(this.filePath);
@@ -76,22 +104,42 @@ public class FileManagement {
 		}
 	}
 
+	/**
+	 * có chức năng trả về dữ liệu chứa tác giả
+	 * trong dữ liệu thư viện
+	*/
 	ArrayList<Author> authorsDat() {
 		return (ArrayList<Author>) this.libraryData.get(0);
 	}
 
+	/**
+	 * có chức năng trả về dữ liệu chứa nhà xuất bản
+	 * trong dữ liệu thư viện
+	*/	
 	ArrayList<Publisher> publishersDat() {
 		return (ArrayList<Publisher>) this.libraryData.get(1);
 	}
 
+	/**
+	 * có chức năng trả về dữ liệu chứa người dùng
+	 * trong dữ liệu thư viện
+	*/
 	ArrayList<Person> usersDat() {
 		return (ArrayList<Person>) this.libraryData.get(2);
 	}
 
+	/**
+	 * có chức năng trả về dữ liệu chứa tài liệu
+	 * trong dữ liệu thư viện
+	*/
 	ArrayList<Document> docsDat() {
 		return (ArrayList<Document>) this.libraryData.get(3);
 	}
 
+	/**
+	 * có chức năng trả về dữ liệu chứa các lượt mượn
+	 * trong dữ liệu thư viện
+	*/
 	ArrayList<IssuedFor> issuedDat() {
 		return (ArrayList<IssuedFor>) this.libraryData.get(4);
 	}
