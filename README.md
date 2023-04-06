@@ -7,7 +7,7 @@ Quản lý thư viện
 
 # Hướng dẫn chạy
 - Yêu cầu cài JDK >= 1.8
-- Lưu file jar và file dữ liệu library.dat vào cùng thư mục
+- Tải file jar trong thư mục dist và file dữ liệu library.dat về, sau đó lưu vào cùng thư mục
 - Mở file jar lên để chạy (lần đầu mở có thể hiện ra thông báo không thấy file dữ liệu)
 
 # Các chức năng
@@ -17,3 +17,6 @@ Quản lý thư viện
 - Thêm, sửa, xóa, tìm kiếm tài khoản độc giả
 - Thống kê tài liệu theo còn lại, đã mượn
 - Thay đổi thông tin cá nhân tài khoản thủ thư
+
+# Biểu đồ lớp UML
+![](QlyTV.drawio.png)
