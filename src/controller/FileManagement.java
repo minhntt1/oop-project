@@ -88,8 +88,9 @@ public class FileManagement {
 	/**
 	 * có chức năng lưu dữ liệu trong arraylist
 	 * vào file dữ liệu 
+	 * @return mã trạng thái
 	 */
-	int writeData() {
+	public int writeData() {
 		try {
 			FileOutputStream fos = new FileOutputStream(this.filePath);
 			ObjectOutputStream oos = new ObjectOutputStream(fos);
@@ -107,40 +108,45 @@ public class FileManagement {
 	/**
 	 * có chức năng trả về dữ liệu chứa tác giả
 	 * trong dữ liệu thư viện
+	 * @return danh sách tác giả
 	*/
-	ArrayList<Author> authorsDat() {
+	public ArrayList<Author> authorsDat() {
 		return (ArrayList<Author>) this.libraryData.get(0);
 	}
 
 	/**
 	 * có chức năng trả về dữ liệu chứa nhà xuất bản
 	 * trong dữ liệu thư viện
+	 * @return danh sách nhà xuất bản
 	*/	
-	ArrayList<Publisher> publishersDat() {
+	public ArrayList<Publisher> publishersDat() {
 		return (ArrayList<Publisher>) this.libraryData.get(1);
 	}
 
 	/**
 	 * có chức năng trả về dữ liệu chứa người dùng
 	 * trong dữ liệu thư viện
+	 * @return danh sách người dùng
 	*/
-	ArrayList<Person> usersDat() {
+	public ArrayList<Person> usersDat() {
 		return (ArrayList<Person>) this.libraryData.get(2);
 	}
 
 	/**
 	 * có chức năng trả về dữ liệu chứa tài liệu
 	 * trong dữ liệu thư viện
+	 * @return danh sách tài liệu
 	*/
-	ArrayList<Document> docsDat() {
+	public ArrayList<Document> docsDat() {
 		return (ArrayList<Document>) this.libraryData.get(3);
 	}
 
 	/**
 	 * có chức năng trả về dữ liệu chứa các lượt mượn
 	 * trong dữ liệu thư viện
+	 * @return danh sách lượt mượn
 	*/
-	ArrayList<IssuedFor> issuedDat() {
+	public ArrayList<IssuedFor> issuedDat() {
 		return (ArrayList<IssuedFor>) this.libraryData.get(4);
 	}
 }
